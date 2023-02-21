@@ -5,11 +5,11 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "80"
+      - "8000:14000"
 
   dockermvc:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "80"
+      - "9000:14000"
 
