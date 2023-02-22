@@ -11,13 +11,13 @@ services:
       context: .
       dockerfile: ppi/Dockerfile
 
-  dockermvc:
-    image: docker-test/docker-mvc
-    expose:
-      - "14000"
-    ports:
-      - "9000:14000"
-    build:
-      context: .
-      dockerfile: mvc/Dockerfile
+  #dockermvc:
+  #  image: docker-test/docker-mvc
+  #  expose:
+  #    - "14000"
+  #  ports:
+  #    - "9000:14000"
+  #  build:
+  #    context: .
+  #    dockerfile: mvc/Dockerfile
 
