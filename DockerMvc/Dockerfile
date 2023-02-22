@@ -7,6 +7,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["DockerMvc/DockerMvc.csproj", "DockerMvc/"]
+COPY ["DockerDataModel/DockerDataModel.csproj", "DockerDataModel/"]
 RUN dotnet restore "DockerMvc/DockerMvc.csproj"
 COPY . .
 WORKDIR "/src/DockerMvc"

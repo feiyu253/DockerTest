@@ -9,13 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Dockerfile" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Dockerfile">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Remove="Dockerfile.original" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +27,10 @@
     <Reference Include="EMI.Infrastructure">
       <HintPath>..\..\..\ZhongHeng\ThirdPartRefDll\EMI.Infrastructure.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="..\.dockerignore" />
   </ItemGroup>
 
 </Project>

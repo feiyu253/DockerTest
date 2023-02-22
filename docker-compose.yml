@@ -2,22 +2,22 @@ version: '3.4'
 
 services:
   dockerapi:
-    image: docker-test/docker-api
+    image: ${DOCKER_REGISTRY-}dockerapi
     expose:
       - "14000"
     ports:
       - "8000:14000"
     build:
       context: .
-      dockerfile: ppi/Dockerfile
+      dockerfile: DockerApi/Dockerfile
 
   dockermvc:
-    image: docker-test/docker-mvc
+    image: ${DOCKER_REGISTRY-}dockermvc
     expose:
       - "14000"
     ports:
       - "9000:14000"
     build:
       context: .
-      dockerfile: mvc/Dockerfile
+      dockerfile: DockerMvc/Dockerfile
 
