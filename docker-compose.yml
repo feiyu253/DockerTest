@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   dockerapi:
-    image: ${DOCKER_REGISTRY-}dockerapi
+    image: docker-test/dockerapi
     expose:
       - "14000"
     ports:
@@ -12,7 +12,7 @@ services:
       dockerfile: DockerApi/Dockerfile
 
   dockermvc:
-    image: ${DOCKER_REGISTRY-}dockermvc
+    image: docker-test/dockermvc
     expose:
       - "14000"
     ports:
