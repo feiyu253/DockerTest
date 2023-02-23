@@ -11,12 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerDataModel", "DockerDa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerConsole", "DockerConsole\DockerConsole.csproj", "{80EA7B51-FF4E-47E0-BEDD-790AA53236AE}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DD7727F4-1229-47E6-AF6C-47F49606CDB0}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdPartRefDll", "ThirdPartRefDll", "{C2EB99A1-1AEC-40B5-9BA9-1F9B372D0C6B}"
 	ProjectSection(SolutionItems) = preProject
 		ThirdPartRefDll\EMI.Infrastructure.dll = ThirdPartRefDll\EMI.Infrastructure.dll
 	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0C238545-364E-434F-BA7E-6B050E77FFB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +40,10 @@ Global
 		{80EA7B51-FF4E-47E0-BEDD-790AA53236AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80EA7B51-FF4E-47E0-BEDD-790AA53236AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80EA7B51-FF4E-47E0-BEDD-790AA53236AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD7727F4-1229-47E6-AF6C-47F49606CDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD7727F4-1229-47E6-AF6C-47F49606CDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD7727F4-1229-47E6-AF6C-47F49606CDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD7727F4-1229-47E6-AF6C-47F49606CDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C238545-364E-434F-BA7E-6B050E77FFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C238545-364E-434F-BA7E-6B050E77FFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C238545-364E-434F-BA7E-6B050E77FFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C238545-364E-434F-BA7E-6B050E77FFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

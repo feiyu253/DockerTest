@@ -3,20 +3,12 @@ version: '3.4'
 services:
   dockerapi:
     image: docker-test/dockerapi
-    expose:
-      - "14000"
-    ports:
-      - "8000:14000"
     build:
       context: .
       dockerfile: DockerApi/Dockerfile
 
   dockermvc:
     image: docker-test/dockermvc
-    expose:
-      - "14000"
-    ports:
-      - "9000:14000"
     build:
       context: .
       dockerfile: DockerMvc/Dockerfile

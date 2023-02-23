@@ -4,12 +4,16 @@ services:
   dockerapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    ports:
+    expose:
       - "80"
+    ports:
+      - "8000:80"
 
   dockermvc:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    ports:
+    expose:
       - "80"
+    ports:
+      - "9000:80"
 
